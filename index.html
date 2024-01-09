@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="ui.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="calculator" style="margin-top: 10vh;">
+        <div class="calculatorTop" style="display: flex; justify-content: center;">
+            <input class="output" id="output">
+                
+        </input>
+        </div>
+        <div class="calculatorBottom">
+            <div class="row">
+                <button onClick="addToCalc('7')" class="box">7</button>
+                <button onClick="addToCalc('8')" class="box">8</button>
+                <button onClick="addToCalc('9')" class="box">9</button>
+                <button onClick="addToCalc('/')" class="box">/</button>
+            </div>
+            <div class="row">
+                <button onClick="addToCalc('4')" class="box">4</button>
+                <button onClick="addToCalc('5')" class="box">5</button>
+                <button onClick="addToCalc('6')" class="box">6</button>
+                <button onClick="addToCalc('*')" class="box">*</button>
+            </div>
+            <div class="row">
+                <button onClick="addToCalc('1')" class="box">1</button>
+                <button onClick="addToCalc('2')" class="box">2</button>
+                <button onClick="addToCalc('3')" class="box">3</button>
+                <button onClick="addToCalc('-')" class="box">-</button>
+            </div>
+            <div class="row">
+                <button onClick="addToCalc('0')" class="box">0</button>
+                <button onClick="addToCalc('.')" class="box">.</button>
+                <button onClick="resultCalc()" class="box">=</button>
+                <button onClick="addToCalc('+')" class="box">+</button>
+            </div>
+            <div class="row" style="display: flex; justify-content: start;">
+                <button onClick="clearCalc()" class="box" style="background-color: red;">C</button>  
+            </div>
+        </div>
+    </div>
+</body>
+</html>
