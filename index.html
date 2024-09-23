@@ -12,7 +12,7 @@
 
     <div class="calculator" style="margin-top: 10vh;">
         <div class="calculatorTop" style="display: flex; justify-content: center;">
-            <input class="output" id="output">
+            <input class="output" style="outline: 0;" id="output" readonly >
                 
         </input>
         </div>
@@ -42,7 +42,7 @@
                 <button onClick="addToCalc('+')" class="box">+</button>
             </div>
             <div class="row" style="display: flex; justify-content: start;">
-                <button onClick="clearCalc()" class="box" style="background-color: red;">C</button>  
+                <button onClick="clearCalc()" class="box" style="background-color: red; display: flex; width: 100%;">C</button>  
             </div>
         </div>
     </div>
