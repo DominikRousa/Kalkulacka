@@ -1,3 +1,1 @@
-# 026
-Kalkulačka
- 
+# Kalkulačka
